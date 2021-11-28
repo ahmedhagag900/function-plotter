@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterMicro.Task.FunctionPlotter.Windows", "MasterMicro.Task.FunctionPlotter.Windows\MasterMicro.Task.FunctionPlotter.Windows.csproj", "{36D29E46-75C8-4344-9F94-7542804AC4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterMicro.Task.FunctionPlotter.Test", "MasterMicro.Task.FunctionPlotter.Test\MasterMicro.Task.FunctionPlotter.Test.csproj", "{A4F50428-6757-4F16-926D-9AA39B35A287}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D29E46-75C8-4344-9F94-7542804AC4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D29E46-75C8-4344-9F94-7542804AC4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D29E46-75C8-4344-9F94-7542804AC4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D29E46-75C8-4344-9F94-7542804AC4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F50428-6757-4F16-926D-9AA39B35A287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F50428-6757-4F16-926D-9AA39B35A287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F50428-6757-4F16-926D-9AA39B35A287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F50428-6757-4F16-926D-9AA39B35A287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0B9970-378D-43B6-BFC4-95950B523689}
+	EndGlobalSection
+EndGlobal
