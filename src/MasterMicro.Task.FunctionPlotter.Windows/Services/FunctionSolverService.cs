@@ -32,7 +32,6 @@ namespace MasterMicro.Task.FunctionPlotter.Windows.Services
 
             parsedFunction = EvalutePowerTokens(parsedFunction, functionVariableChar, x);
             parsedFunction = CompensateFunctionVariable(parsedFunction, functionVariableChar, x);
-            //to make the evaluater calculate it as double
             
             //evalute the paresd function with the dataTable evaluater and get the function solution in (x) 
             DataTable expressionEvalouator = new DataTable();
