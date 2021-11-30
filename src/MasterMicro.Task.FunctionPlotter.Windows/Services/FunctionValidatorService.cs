@@ -34,7 +34,7 @@ namespace MasterMicro.Task.FunctionPlotter.Windows.Services
         }
         public bool IsValidFormat(string fx)
         {
-            var regex = new Regex(@"(\-?[a-zA-Z0-9]+[+\-\/*\^]?)+([a-zA-Z0-9]$)");
+            var regex = new Regex(@"((\-?[a-zA-Z0-9])+[+\-\/*\^])*(\-?[a-zA-Z0-9]+$)");
             var ss = regex.IsMatch(fx);
             return regex.IsMatch(fx);
         }
