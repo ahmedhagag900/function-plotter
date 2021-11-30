@@ -50,7 +50,6 @@ namespace MasterMicro.Task.FunctionPlotter.Windows.Services
                 //check the characters are not in the same group [numbers,alphpets] and not an operation character
                 //then there is a multiplication operation so construct a multipliction token ex: [5x]-> [5*x]
                 if (!(AreNumbers(fx[i], prev) || 
-                    AreAlphapets(fx[i], prev) || 
                     _operations.Contains(fx[i]) ||
                     _operations.Contains(prev)))
                 {

@@ -40,6 +40,7 @@ namespace MasterMicro.Task.FunctionPlotter.Test
         [InlineData("+")]
         [InlineData("-5+")]
         [InlineData("-5+x&")]
+        [InlineData("-5x + 3")]
         public void ShouldReturnInvalidFormatFunction(string function)
         {
             var actual = _functionValidator.ValidFunction(function);
@@ -48,8 +49,6 @@ namespace MasterMicro.Task.FunctionPlotter.Test
         }
 
         [Theory]
-
-
         [InlineData("x+8")]
         [InlineData("x+8+x^2")]
         [InlineData("x+8+xx")]

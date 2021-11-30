@@ -22,7 +22,7 @@ namespace MasterMicro.Task.FunctionPlotter.Windows.Globals
         }
         public static bool AreAlphapets(char first, char second)
         {
-            return (first >= 'a' && first <= 'z' && second >= 'A' && second <= 'Z');
+            return (first >= 'a' && first <= 'z' && second >= 'a' && second <= 'z')||(first >= 'A' && first <= 'Z' && second >= 'A' && second <= 'Z');
         }
     }
 }
